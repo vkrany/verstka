@@ -1,21 +1,19 @@
 .body {
-	max-width: 1440px;
-	margin: 0 auto;
+	min-height: 100vh;
 }
 
-.header {
+.first_block {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 1440px;
-	height: 873px;
+	max-width: 1440px;
+	margin: 0 auto;
 	background-color: #f9f9fa;
 }
 
-.header_title_box {
+.first_block_title_box {
 	display: flex;
-	flex-direction: row;
 	padding-top: 80px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 800;
@@ -27,15 +25,14 @@
 	margin: 0;
 }
 
-.header_subtitle_box {
+.first_block_subtitle_box {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 845px;
-	height: 110px;
+	max-width: 845px;
 }
 
-.header_subtitle {
+.first_block_subtitle {
 	font-family: "Galano Grotesque", sans-serif;
 	font-weight: 400;
 	font-size: 46px;
@@ -45,36 +42,21 @@
 	overflow-wrap: break-word;
 }
 
-.header_container1 {
+.first_block_cards {
 	margin-top: 80px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
-.header_container2 {
-	margin-top: 35px;
-	display: flex;
-	flex-direction: row;
-	margin-bottom: 80px;
-	justify-content: space-between;
-}
-
-.header_container_item {
+.first_block_cards_container_item {
 	max-width: 387px;
 	margin-right: 35px;
 	background-color: #ffffff;
+	gap: 80px 35px;
 }
 
-.header_container_item:first-child {
-	margin-left: 105px;
-}
-
-.header_container_item:last-child {
-	margin-right: 105px;
-}
-
-.header_container_item_title {
+.first_block_cards_container_item_title {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	margin: 22px 162px 28px 22px;
@@ -83,9 +65,8 @@
 	white-space: nowrap;
 }
 
-.header_container_item_text {
+.first_block_cards_container_item_text {
 	font-family: "Open Sans", sans-serif;
-	font-weight: 400;
 	font-size: 17px;
 	line-height: 26px;
 	margin: 28px 22px 22px 22px;
